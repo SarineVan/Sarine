@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.head{
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    height: 140px;
+    background-color: rgba(20, 35, 42, 1);
+}
+
+.head img{
+    margin: 25px 80px;
+    width: 234px;
+    height: 60px;
+}
+.menu{
+    justify-content: space-between;
+    display: flex;
+    height: 23px;
+    width: 543px;
+    margin: auto;
+}
+.product {
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+}
+.product_main {
+    letter-spacing: 1.2px;
+    color: rgba(140, 198, 63, 1);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+.talk{
+    margin: 25px 80px;
+    text-decoration: none;
+    width: 190px;
+    height: 65px;
+    border-radius: 8px;
+    background-color: rgba(140, 198, 63, 1);
+    color: white;
+    font-size: 16px;
+}
+.about{
+    position: relative;
+    top: -557px;
+    left: 188px;
+    }
+.about p{
+    color: rgba(255, 255, 255, 1);
+    opacity: 30%;
+    font-size: 16px;
+}
+h1{
+    font-size: 56px;
+    color: white;
+}
+span{
+    color:  rgba(140, 198, 63, 1);
+}
+h2{
+    word-spacing: 3px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 95%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.get{
+    margin: 10px 101px;
+    text-decoration: none;
+    width: 181px;
+    height: 54px;
+    border-radius: 8px;
+    background-color: rgba(140, 198, 63, 1);
+    color: white;
+    font-size: 16px;
+}
+.arrow{
+    position: absolute;
+    left: 521px;
+    bottom: -66px;
+}
+.games{
+    padding-top: 125px;
+    height: 600px;
+    width: 100%;
+    background-color: #15242b;
+}
+.game{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.page{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.help{
+    height: 800px;
+    background-color: #FFFF;
+}
+.services{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 80px;
+
+}
+.services a{
+    word-spacing: 1px;
+    letter-spacing: 0.2px;
+    margin: -23px 10px;
+    text-transform: uppercase;
+    color: rgba(140, 198, 63, 1);
+    text-decoration: none;
+    font-size: 14px;
+}
+h3{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+
+}
+.services p {
+    word-spacing: -0.5px;
+    letter-spacing: 0.2px;
+    margin: -15px 10px;
+    font-size: 17px;
+    width: 469px;
+    text-align: center;
+    color: rgba(107, 107, 107, 1);
+}
+.design{
+  
+    width: 140px;
+    height: 140px;
+    border: 2px solid rgba(140, 198, 63, 1);
+    border-radius: 11px;
+    margin: 9px 79px;
+}
+.design img{
+    margin: 32px 36px;
+    object-fit: contain;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 48px;
+}
+.container a{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.2px;
+    color: rgba(20, 35, 42, 1);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 63px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+}
+
+.inputs{
+    border-radius: 26px;
+    display: flex;
+    width: 1300px;
+    margin: auto;
+    position: relative;
+    top: 199px;
+    z-index: 500;
+    height: 600px;
+    background-color: rgba(140, 198, 63, 1);
+}
+.ideas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 121px;
+}
+.ideas p{
+    color: rgba(255, 255, 255, 1);
+    opacity: 90%;
+    font-size: 22px;
+}
+h4{
+    width: 444px;
+    margin-top: 15px;
+    margin-bottom: -4px;
+    font-size: 56px;
+    color: white;
+}
+h5{
+    word-spacing: 0.5px;
+    letter-spacing: 0.2px;
+    width: 367px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+}
+.end{
+       padding-top: 200px;
+       position: relative;
+       bottom: -42px;
+       left: 0;
+       height: 300px;
+       background-color: rgba(20, 35, 42, 1);
+}
+.conact{
+    display: flex;
+    justify-content: center;
+}
+.conact img{
+    margin: 0px 80px;
+    height: 40px;
+}
+.conact p{
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+
+}
+.conact a{
+    margin-top: 12px;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    margin-right: 45px;
+}
+.socials li{
+    margin: 24px 8px;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+}
+.socials li:nth-child(1){
+    background-color: rgba(140, 198, 63, 1);
+}
+.socials li img{
+    margin: 8px 8px;
+}
+.menu_footer{
+    justify-content: space-between;
+    display: flex;
+    height: 23px;
+    width: 463px;
+    margin: auto;
+    padding-bottom: 23px;
+}
+.menu_footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+.rights{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    opacity: 30%;
+    font-size: 16px;
+}
+.write{
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.write input{
+    font-weight: 500;
+    font-size: 15px;
+    width: 300px;
+    height: 55px;
+    margin-bottom: 11px;
+    padding-left: 34px;
+    border: none;
+    border-radius: 4px;
+}
+.write input:nth-last-child(2){
+    height: 80px;
+   
+}
+.write button{
+    background-color: rgba(20, 35, 42, 1);
+    color: white;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    font-size: 15px;
+    width: 336px;
+    height: 55px;
+    margin-bottom: 11px;
+    border: none;
+    border-radius: 6px;
+}
+body{
+    font-family: "Plus Jakarta Sans";
+    width: 100%;
+    overflow-x: hidden;
+}
